@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite parallel="false" name="MyTestSuite2">
+     <groups>
+     
+        <run>
+            <include name="linux" />
+        </run>
+    </groups>
+    <test name="windowstest">
+    <groups>
+    <define name="winlinx">
+     	<include name="windows.*"/>
+     	<include name="linux.*"/>
+     </define>
+     <define name="all">
+     	<include name="windows.*"/>
+     	<include name="linux.*"/>
+     	<include name="mac.*"/>
+     </define>
+     <define name="linux">     	
+     	<include name="linux.*"/>
+     	     </define>
+     </groups>
+        <packages>
+            <package name="com.org.*" />
+        </packages>
+    </test> <!-- Test -->
+</suite> <!-- Suite -->

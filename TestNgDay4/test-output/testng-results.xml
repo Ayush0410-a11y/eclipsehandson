@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="8" passed="8" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2021-08-29T23:13:58 IST" name="Suite" finished-at="2021-08-29T23:14:03 IST" duration-ms="5079">
+    <groups>
+      <group name="windows.checkout">
+        <method signature="SampleTestParalleTest.windowscheckout()[pri:0, instance:com.org.SampleTestParalleTest@7ce3cb8e]" name="windowscheckout" class="com.org.SampleTestParalleTest"/>
+        <method signature="SampleTestParalleTest.windowscheckout()[pri:0, instance:com.org.SampleTestParalleTest@2145b572]" name="windowscheckout" class="com.org.SampleTestParalleTest"/>
+      </group> <!-- windows.checkout -->
+      <group name="mac.checkout">
+        <method signature="SampleTestParalleTest.maclogin()[pri:1, instance:com.org.SampleTestParalleTest@7ce3cb8e]" name="maclogin" class="com.org.SampleTestParalleTest"/>
+        <method signature="SampleTestParalleTest.maclogin()[pri:1, instance:com.org.SampleTestParalleTest@2145b572]" name="maclogin" class="com.org.SampleTestParalleTest"/>
+      </group> <!-- mac.checkout -->
+      <group name="windows.login">
+        <method signature="SampleTestParalleTest.windowslogin()[pri:2, instance:com.org.SampleTestParalleTest@7ce3cb8e]" name="windowslogin" class="com.org.SampleTestParalleTest"/>
+        <method signature="SampleTestParalleTest.windowslogin()[pri:2, instance:com.org.SampleTestParalleTest@2145b572]" name="windowslogin" class="com.org.SampleTestParalleTest"/>
+      </group> <!-- windows.login -->
+      <group name="linux.checkout">
+        <method signature="SampleTestParalleTest.linkuscheckout()[pri:0, instance:com.org.SampleTestParalleTest@7ce3cb8e]" name="linkuscheckout" class="com.org.SampleTestParalleTest"/>
+        <method signature="SampleTestParalleTest.linkuscheckout()[pri:0, instance:com.org.SampleTestParalleTest@2145b572]" name="linkuscheckout" class="com.org.SampleTestParalleTest"/>
+      </group> <!-- linux.checkout -->
+    </groups>
+    <test started-at="2021-08-29T23:13:58 IST" name="TestParallel2" finished-at="2021-08-29T23:14:03 IST" duration-ms="5078">
+      <class name="com.org.SampleTestParalleTest">
+        <test-method is-config="true" signature="beforetest()[pri:0, instance:com.org.SampleTestParalleTest@2145b572]" started-at="2021-08-29T23:13:58 IST" name="beforetest" finished-at="2021-08-29T23:13:58 IST" duration-ms="6" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforetest -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:com.org.SampleTestParalleTest@2145b572]" started-at="2021-08-29T23:13:58 IST" name="beforeMethod" finished-at="2021-08-29T23:13:58 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:com.org.SampleTestParalleTest@2145b572]" started-at="2021-08-29T23:13:58 IST" name="beforeMethod" finished-at="2021-08-29T23:13:58 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="maclogin()[pri:1, instance:com.org.SampleTestParalleTest@2145b572]" started-at="2021-08-29T23:13:58 IST" name="maclogin" finished-at="2021-08-29T23:14:01 IST" duration-ms="3005" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- maclogin -->
+        <test-method signature="linkuscheckout()[pri:0, instance:com.org.SampleTestParalleTest@2145b572]" started-at="2021-08-29T23:13:58 IST" name="linkuscheckout" finished-at="2021-08-29T23:14:00 IST" duration-ms="2006" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- linkuscheckout -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:com.org.SampleTestParalleTest@2145b572]" started-at="2021-08-29T23:14:00 IST" name="afterMethod" finished-at="2021-08-29T23:14:00 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:com.org.SampleTestParalleTest@2145b572]" started-at="2021-08-29T23:14:00 IST" name="beforeMethod" finished-at="2021-08-29T23:14:00 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="windowslogin()[pri:2, instance:com.org.SampleTestParalleTest@2145b572]" started-at="2021-08-29T23:14:00 IST" name="windowslogin" finished-at="2021-08-29T23:14:02 IST" duration-ms="2015" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- windowslogin -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:com.org.SampleTestParalleTest@2145b572]" started-at="2021-08-29T23:14:01 IST" name="afterMethod" finished-at="2021-08-29T23:14:01 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:com.org.SampleTestParalleTest@2145b572]" started-at="2021-08-29T23:14:02 IST" name="afterMethod" finished-at="2021-08-29T23:14:02 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:com.org.SampleTestParalleTest@2145b572]" started-at="2021-08-29T23:14:02 IST" name="beforeMethod" finished-at="2021-08-29T23:14:02 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="windowscheckout()[pri:0, instance:com.org.SampleTestParalleTest@2145b572]" started-at="2021-08-29T23:14:02 IST" name="windowscheckout" finished-at="2021-08-29T23:14:03 IST" depends-on-methods="com.org.SampleTestParalleTest.windowslogin" duration-ms="1005" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- windowscheckout -->
+        <test-method is-config="true" signature="aftertest()[pri:0, instance:com.org.SampleTestParalleTest@2145b572]" started-at="2021-08-29T23:14:03 IST" name="aftertest" finished-at="2021-08-29T23:14:03 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- aftertest -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:com.org.SampleTestParalleTest@2145b572]" started-at="2021-08-29T23:14:03 IST" name="afterMethod" finished-at="2021-08-29T23:14:03 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+      </class> <!-- com.org.SampleTestParalleTest -->
+    </test> <!-- TestParallel2 -->
+    <test started-at="2021-08-29T23:13:58 IST" name="TestParallel1" finished-at="2021-08-29T23:14:03 IST" duration-ms="5079">
+      <class name="com.org.SampleTestParalleTest">
+        <test-method is-config="true" signature="beforetest()[pri:0, instance:com.org.SampleTestParalleTest@7ce3cb8e]" started-at="2021-08-29T23:13:58 IST" name="beforetest" finished-at="2021-08-29T23:13:58 IST" duration-ms="6" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforetest -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:com.org.SampleTestParalleTest@7ce3cb8e]" started-at="2021-08-29T23:13:58 IST" name="beforeMethod" finished-at="2021-08-29T23:13:58 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:com.org.SampleTestParalleTest@7ce3cb8e]" started-at="2021-08-29T23:13:58 IST" name="beforeMethod" finished-at="2021-08-29T23:13:58 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="linkuscheckout()[pri:0, instance:com.org.SampleTestParalleTest@7ce3cb8e]" started-at="2021-08-29T23:13:58 IST" name="linkuscheckout" finished-at="2021-08-29T23:14:00 IST" duration-ms="2013" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- linkuscheckout -->
+        <test-method signature="maclogin()[pri:1, instance:com.org.SampleTestParalleTest@7ce3cb8e]" started-at="2021-08-29T23:13:58 IST" name="maclogin" finished-at="2021-08-29T23:14:01 IST" duration-ms="3022" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- maclogin -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:com.org.SampleTestParalleTest@7ce3cb8e]" started-at="2021-08-29T23:14:00 IST" name="afterMethod" finished-at="2021-08-29T23:14:00 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method signature="windowslogin()[pri:2, instance:com.org.SampleTestParalleTest@7ce3cb8e]" started-at="2021-08-29T23:14:00 IST" name="windowslogin" finished-at="2021-08-29T23:14:02 IST" duration-ms="2012" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- windowslogin -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:com.org.SampleTestParalleTest@7ce3cb8e]" started-at="2021-08-29T23:14:00 IST" name="beforeMethod" finished-at="2021-08-29T23:14:00 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:com.org.SampleTestParalleTest@7ce3cb8e]" started-at="2021-08-29T23:14:01 IST" name="afterMethod" finished-at="2021-08-29T23:14:01 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:com.org.SampleTestParalleTest@7ce3cb8e]" started-at="2021-08-29T23:14:02 IST" name="afterMethod" finished-at="2021-08-29T23:14:02 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:com.org.SampleTestParalleTest@7ce3cb8e]" started-at="2021-08-29T23:14:02 IST" name="beforeMethod" finished-at="2021-08-29T23:14:02 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="windowscheckout()[pri:0, instance:com.org.SampleTestParalleTest@7ce3cb8e]" started-at="2021-08-29T23:14:02 IST" name="windowscheckout" finished-at="2021-08-29T23:14:03 IST" depends-on-methods="com.org.SampleTestParalleTest.windowslogin" duration-ms="1005" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- windowscheckout -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:com.org.SampleTestParalleTest@7ce3cb8e]" started-at="2021-08-29T23:14:03 IST" name="afterMethod" finished-at="2021-08-29T23:14:03 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="aftertest()[pri:0, instance:com.org.SampleTestParalleTest@7ce3cb8e]" started-at="2021-08-29T23:14:03 IST" name="aftertest" finished-at="2021-08-29T23:14:03 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- aftertest -->
+      </class> <!-- com.org.SampleTestParalleTest -->
+    </test> <!-- TestParallel1 -->
+  </suite> <!-- Suite -->
+</testng-results>

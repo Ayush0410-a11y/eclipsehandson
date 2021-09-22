@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite parallel="false" name="Suite">
+  <test name="Test">
+  <groups>
+  <run>
+  	<include name="regression"/>
+  </run>
+  </groups>
+    <classes>
+   	  <class name="com.org.test3.AttributeGroupTest"/>
+         
+    </classes>
+  </test> <!-- Test -->
+   
+</suite> <!-- Suite -->
